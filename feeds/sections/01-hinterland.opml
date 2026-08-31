@@ -18,5 +18,9 @@
       <outline text="POLITICO Europe" title="POLITICO Europe" type="rss" xmlUrl="https://www.politico.eu/feed/" htmlUrl="https://www.politico.eu/"/>
       <outline text="Notes from Poland" title="Notes from Poland" type="rss" xmlUrl="https://notesfrompoland.com/feed/" htmlUrl="https://notesfrompoland.com/"/>
       <outline text="Le Monde in English" title="Le Monde in English" type="rss" xmlUrl="https://www.lemonde.fr/en/rss/une.xml" htmlUrl="https://www.lemonde.fr/en/"/>
+      <outline text="BBC News - UK" title="BBC News - UK" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/uk/rss.xml" htmlUrl="https://www.bbc.co.uk/news/uk"/>
+      <outline text="BBC News - London" title="BBC News - London" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/england/london/rss.xml" htmlUrl="https://www.bbc.co.uk/news/england/london"/>
+      <outline text="BBC News - UK Politics" title="BBC News - UK Politics" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/politics/rss.xml" htmlUrl="https://www.bbc.co.uk/news/politics"/>
+      <outline text="France 24 - Europe" title="France 24 - Europe" type="rss" xmlUrl="https://www.france24.com/en/europe/rss" htmlUrl="https://www.france24.com/en/europe/"/>
   </body>
 </opml>
