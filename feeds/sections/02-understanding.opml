@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>02 Understanding — Digest System</title>
+  </head>
+  <body>
+      <outline text="The long read | The Guardian" title="The long read | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/news/series/the-long-read/rss" htmlUrl="https://www.theguardian.com/news/series/the-long-read"/>
+      <outline text="Aeon" title="Aeon" type="rss" xmlUrl="https://aeon.co/feed.atom" htmlUrl="https://aeon.co/"/>
+      <outline text="Psyche" title="Psyche" type="rss" xmlUrl="https://psyche.co/feed" htmlUrl="https://psyche.co/"/>
+      <outline text="Rest of World" title="Rest of World" type="rss" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/"/>
+      <outline text="The Dial" title="The Dial" type="rss" xmlUrl="https://www.thedial.world/articles?format=rss" htmlUrl="https://www.thedial.world/articles/"/>
+      <outline text="New Lines Magazine" title="New Lines Magazine" type="rss" xmlUrl="https://newlinesmag.com/feed" htmlUrl="https://newlinesmag.com/"/>
+      <outline text="The New Humanitarian" title="The New Humanitarian" type="rss" xmlUrl="https://www.thenewhumanitarian.org/rss.xml" htmlUrl="https://www.thenewhumanitarian.org/"/>
+      <outline text="The New York Times Magazine" title="The New York Times Magazine" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/magazine/rss.xml" htmlUrl="https://www.nytimes.com/section/magazine"/>
+  </body>
+</opml>
