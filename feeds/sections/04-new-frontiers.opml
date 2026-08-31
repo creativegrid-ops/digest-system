@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>04 New Frontiers — Digest System</title>
+  </head>
+  <body>
+      <outline text="Quanta Magazine" title="Quanta Magazine" type="rss" xmlUrl="https://api.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org/"/>
+      <outline text="Works in Progress" title="Works in Progress" type="rss" xmlUrl="https://www.worksinprogress.news/feed" htmlUrl="https://www.worksinprogress.news/"/>
+      <outline text="Science | The Guardian" title="Science | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/science/rss" htmlUrl="https://www.theguardian.com/science"/>
+      <outline text="Environment | The Guardian" title="Environment | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/environment/rss" htmlUrl="https://www.theguardian.com/environment"/>
+      <outline text="Technology | The Guardian" title="Technology | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/technology/rss" htmlUrl="https://www.theguardian.com/technology"/>
+      <outline text="Artificial intelligence (AI) | The Guardian" title="Artificial intelligence (AI) | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/technology/artificialintelligenceai/rss" htmlUrl="https://www.theguardian.com/technology/artificialintelligenceai"/>
+      <outline text="Psychology | The Guardian" title="Psychology | The Guardian" type="rss" xmlUrl="http://www.guardian.co.uk/science/psychology/rss" htmlUrl="http://www.theguardian.com/science/psychology"/>
+      <outline text="Datablog | The Guardian" title="Datablog | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/news/datablog/rss" htmlUrl="https://www.theguardian.com/news/datablog"/>
+      <outline text="Science | The New York Times" title="Science | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Science.xml" htmlUrl="https://www.nytimes.com/section/science"/>
+  </body>
+</opml>
