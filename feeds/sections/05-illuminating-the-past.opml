@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>05 Illuminating the Past — Digest System</title>
+  </head>
+  <body>
+      <outline text="The Public Domain Review" title="The Public Domain Review" type="rss" xmlUrl="https://publicdomainreview.org/feed/" htmlUrl="https://publicdomainreview.org/"/>
+      <outline text="Aeon" title="Aeon" type="rss" xmlUrl="https://aeon.co/feed.atom" htmlUrl="https://aeon.co/"/>
+      <outline text="Smithsonian Magazine" title="Smithsonian Magazine" type="rss" xmlUrl="https://www.smithsonianmag.com/rss/latest_articles/" htmlUrl="https://www.smithsonianmag.com/"/>
+      <outline text="History Today" title="History Today" type="rss" xmlUrl="https://www.historytoday.com/feed/rss.xml" htmlUrl="https://www.historytoday.com/"/>
+  </body>
+</opml>
