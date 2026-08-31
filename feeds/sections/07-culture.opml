@@ -9,5 +9,9 @@
       <outline text="Film | The Guardian" title="Film | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/uk/film/rss" htmlUrl="https://www.theguardian.com/film"/>
       <outline text="Books | The Guardian" title="Books | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/books/rss" htmlUrl="https://www.theguardian.com/books"/>
       <outline text="Time Out London" title="Time Out London" type="rss" xmlUrl="https://www.timeout.com/london/blog/feed.rss" htmlUrl="https://www.timeout.com/london"/>
+      <outline text="Arts | The New York Times" title="Arts | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="Books | The New York Times" title="Books | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Books.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="Music | The New York Times" title="Music | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Music.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="Movies | The New York Times" title="Movies | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml" htmlUrl="https://www.nytimes.com/"/>
   </body>
 </opml>
