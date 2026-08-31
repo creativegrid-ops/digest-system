@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>07 Culture (Sunday) — Digest System</title>
+  </head>
+  <body>
+      <outline text="Culture | The Guardian" title="Culture | The Guardian" type="rss" xmlUrl="http://feeds.guardian.co.uk/theguardian/culture/rss" htmlUrl="http://www.theguardian.com/culture"/>
+      <outline text="Music | The Guardian" title="Music | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/music/rss" htmlUrl="https://www.theguardian.com/music"/>
+      <outline text="Film | The Guardian" title="Film | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/uk/film/rss" htmlUrl="https://www.theguardian.com/film"/>
+      <outline text="Books | The Guardian" title="Books | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/books/rss" htmlUrl="https://www.theguardian.com/books"/>
+      <outline text="Time Out London" title="Time Out London" type="rss" xmlUrl="https://www.timeout.com/london/blog/feed.rss" htmlUrl="https://www.timeout.com/london"/>
+  </body>
+</opml>
