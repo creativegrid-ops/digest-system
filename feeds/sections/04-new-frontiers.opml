@@ -13,5 +13,8 @@
       <outline text="Psychology | The Guardian" title="Psychology | The Guardian" type="rss" xmlUrl="http://www.guardian.co.uk/science/psychology/rss" htmlUrl="http://www.theguardian.com/science/psychology"/>
       <outline text="Datablog | The Guardian" title="Datablog | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/news/datablog/rss" htmlUrl="https://www.theguardian.com/news/datablog"/>
       <outline text="Science | The New York Times" title="Science | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Science.xml" htmlUrl="https://www.nytimes.com/section/science"/>
+      <outline text="Climate | The New York Times" title="Climate | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Climate.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="Technology | The New York Times" title="Technology | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="Health | The New York Times" title="Health | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Health.xml" htmlUrl="https://www.nytimes.com/"/>
   </body>
 </opml>
