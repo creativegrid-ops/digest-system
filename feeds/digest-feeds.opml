@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>World &amp; Culture Digest — Master Source List (creativegrid-ops/digest-system)</title>
+  </head>
+  <body>
+    <outline text="01 Hinterland" title="01 Hinterland">
+      <outline text="The Guardian - UK news" title="The Guardian - UK news" type="rss" xmlUrl="https://feeds.theguardian.com/theguardian/uk-news/rss" htmlUrl="https://www.theguardian.com/uk-news"/>
+      <outline text="Politics | The Guardian" title="Politics | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/politics/rss" htmlUrl="https://www.theguardian.com/politics"/>
+      <outline text="Business | The Guardian" title="Business | The Guardian" type="rss" xmlUrl="https://feeds.theguardian.com/theguardian/uk/business/rss" htmlUrl="https://www.theguardian.com/uk/business"/>
+      <outline text="Education | The Guardian" title="Education | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/education/rss" htmlUrl="https://www.theguardian.com/education"/>
+      <outline text="Energy | The Guardian" title="Energy | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/environment/energy/rss" htmlUrl="https://www.theguardian.com/environment/energy"/>
+      <outline text="Advertising | The Guardian" title="Advertising | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/media/advertising/rss" htmlUrl="https://www.theguardian.com/media/advertising"/>
+      <outline text="ON LONDON" title="ON LONDON" type="rss" xmlUrl="https://onlondon.co.uk/feed/" htmlUrl="https://onlondon.co.uk/"/>
+      <outline text="Dave Hill On London" title="Dave Hill On London" type="rss" xmlUrl="https://davehillonlondon.substack.com/feed" htmlUrl="https://davehillonlondon.substack.com/"/>
+      <outline text="IQ Magazine" title="IQ Magazine" type="rss" xmlUrl="https://www.iq-mag.net/feed/" htmlUrl="https://www.iq-mag.net/"/>
+      <outline text="Arts Professional" title="Arts Professional" type="rss" xmlUrl="https://www.artsprofessional.co.uk/rss.xml" htmlUrl="https://www.artsprofessional.co.uk/"/>
+      <outline text="European Union | The Guardian" title="European Union | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/world/eu/rss" htmlUrl="https://www.theguardian.com/world/eu"/>
+      <outline text="POLITICO Europe" title="POLITICO Europe" type="rss" xmlUrl="https://www.politico.eu/feed/" htmlUrl="https://www.politico.eu/"/>
+      <outline text="Notes from Poland" title="Notes from Poland" type="rss" xmlUrl="https://notesfrompoland.com/feed/" htmlUrl="https://notesfrompoland.com/"/>
+      <outline text="Le Monde in English" title="Le Monde in English" type="rss" xmlUrl="https://www.lemonde.fr/en/rss/une.xml" htmlUrl="https://www.lemonde.fr/en/"/>
+    </outline>
+    <outline text="02 Understanding" title="02 Understanding">
+      <outline text="The long read | The Guardian" title="The long read | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/news/series/the-long-read/rss" htmlUrl="https://www.theguardian.com/news/series/the-long-read"/>
+      <outline text="Aeon" title="Aeon" type="rss" xmlUrl="https://aeon.co/feed.atom" htmlUrl="https://aeon.co/"/>
+      <outline text="Psyche" title="Psyche" type="rss" xmlUrl="https://psyche.co/feed" htmlUrl="https://psyche.co/"/>
+      <outline text="Rest of World" title="Rest of World" type="rss" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/"/>
+      <outline text="The Dial" title="The Dial" type="rss" xmlUrl="https://www.thedial.world/articles?format=rss" htmlUrl="https://www.thedial.world/articles/"/>
+      <outline text="New Lines Magazine" title="New Lines Magazine" type="rss" xmlUrl="https://newlinesmag.com/feed" htmlUrl="https://newlinesmag.com/"/>
+      <outline text="The New Humanitarian" title="The New Humanitarian" type="rss" xmlUrl="https://www.thenewhumanitarian.org/rss.xml" htmlUrl="https://www.thenewhumanitarian.org/"/>
+      <outline text="The New York Times Magazine" title="The New York Times Magazine" type="rss" xmlUrl="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/magazine/rss.xml" htmlUrl="https://www.nytimes.com/section/magazine"/>
+    </outline>
+    <outline text="03 State Changes" title="03 State Changes">
+      <outline text="Verfassungsblog" title="Verfassungsblog" type="rss" xmlUrl="https://verfassungsblog.de/feed/" htmlUrl="https://verfassungsblog.de/"/>
+      <outline text="International Crisis Group" title="International Crisis Group" type="rss" xmlUrl="https://www.crisisgroup.org/rss" htmlUrl="https://www.crisisgroup.org/"/>
+      <outline text="World news | The Guardian" title="World news | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world"/>
+      <outline text="Ukraine | The Guardian" title="Ukraine | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/ukraine/rss" htmlUrl="https://www.theguardian.com/world/ukraine"/>
+      <outline text="Middle East and North Africa | The Guardian" title="Middle East and North Africa | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/middleeast/rss" htmlUrl="https://www.theguardian.com/world/middleeast"/>
+      <outline text="Iran | The Guardian" title="Iran | The Guardian" type="rss" xmlUrl="http://www.guardian.co.uk/world/iran/rss" htmlUrl="http://www.theguardian.com/world/iran"/>
+      <outline text="China | The Guardian" title="China | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/world/china/rss" htmlUrl="https://www.theguardian.com/world/china"/>
+      <outline text="United States | The Guardian" title="United States | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/world/usa/rss" htmlUrl="https://www.theguardian.com/world/usa"/>
+      <outline text="World | The New York Times" title="World | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" htmlUrl="https://www.nytimes.com/section/world"/>
+    </outline>
+    <outline text="04 New Frontiers" title="04 New Frontiers">
+      <outline text="Quanta Magazine" title="Quanta Magazine" type="rss" xmlUrl="https://api.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org/"/>
+      <outline text="Works in Progress" title="Works in Progress" type="rss" xmlUrl="https://www.worksinprogress.news/feed" htmlUrl="https://www.worksinprogress.news/"/>
+      <outline text="Science | The Guardian" title="Science | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/science/rss" htmlUrl="https://www.theguardian.com/science"/>
+      <outline text="Environment | The Guardian" title="Environment | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/environment/rss" htmlUrl="https://www.theguardian.com/environment"/>
+      <outline text="Technology | The Guardian" title="Technology | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/technology/rss" htmlUrl="https://www.theguardian.com/technology"/>
+      <outline text="Artificial intelligence (AI) | The Guardian" title="Artificial intelligence (AI) | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/technology/artificialintelligenceai/rss" htmlUrl="https://www.theguardian.com/technology/artificialintelligenceai"/>
+      <outline text="Psychology | The Guardian" title="Psychology | The Guardian" type="rss" xmlUrl="http://www.guardian.co.uk/science/psychology/rss" htmlUrl="http://www.theguardian.com/science/psychology"/>
+      <outline text="Datablog | The Guardian" title="Datablog | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/news/datablog/rss" htmlUrl="https://www.theguardian.com/news/datablog"/>
+      <outline text="Science | The New York Times" title="Science | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Science.xml" htmlUrl="https://www.nytimes.com/section/science"/>
+    </outline>
+    <outline text="05 Illuminating the Past" title="05 Illuminating the Past">
+      <outline text="The Public Domain Review" title="The Public Domain Review" type="rss" xmlUrl="https://publicdomainreview.org/feed/" htmlUrl="https://publicdomainreview.org/"/>
+      <outline text="Aeon" title="Aeon" type="rss" xmlUrl="https://aeon.co/feed.atom" htmlUrl="https://aeon.co/"/>
+      <outline text="Smithsonian Magazine" title="Smithsonian Magazine" type="rss" xmlUrl="https://www.smithsonianmag.com/rss/latest_articles/" htmlUrl="https://www.smithsonianmag.com/"/>
+      <outline text="History Today" title="History Today" type="rss" xmlUrl="https://www.historytoday.com/feed/rss.xml" htmlUrl="https://www.historytoday.com/"/>
+    </outline>
+    <outline text="07 Culture (Sunday)" title="07 Culture (Sunday)">
+      <outline text="Culture | The Guardian" title="Culture | The Guardian" type="rss" xmlUrl="http://feeds.guardian.co.uk/theguardian/culture/rss" htmlUrl="http://www.theguardian.com/culture"/>
+      <outline text="Music | The Guardian" title="Music | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/music/rss" htmlUrl="https://www.theguardian.com/music"/>
+      <outline text="Film | The Guardian" title="Film | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/uk/film/rss" htmlUrl="https://www.theguardian.com/film"/>
+      <outline text="Books | The Guardian" title="Books | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/books/rss" htmlUrl="https://www.theguardian.com/books"/>
+      <outline text="Time Out London" title="Time Out London" type="rss" xmlUrl="https://www.timeout.com/london/blog/feed.rss" htmlUrl="https://www.timeout.com/london"/>
+    </outline>
+  </body>
+</opml>
