@@ -8,12 +8,21 @@ Your existing subscriptions will be superseded by the OPML subscription. To avoi
 - In Inoreader, select all current subscriptions and unsubscribe (Preferences → Folders & feeds makes bulk selection easiest), **except** Nature Briefing (it's an email feed — keep it; the OPML can't recreate it).
 - Don't worry about losing anything: the master list now contains everything worth keeping, deduplicated and corrected.
 
-## Step 2 — Subscribe to the master OPML
+## Step 2 — Subscribe to the six section OPMLs
 
-- Add subscription → **OPML subscription** → paste:
-  `https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/digest-feeds.opml`
-- Inoreader will create the six folders and subscribe to every feed.
-- **Check:** folder counts should be 01×14, 02×8, 03×9, 04×9, 05×4, 07×5. Aeon appears in both 02 and 05 — if Inoreader has instead created one Aeon subscription in a single folder, drag it so it sits in both.
+Inoreader forces each OPML subscription into a single folder, so each section has its own file. For **each** row: Add subscription → OPML subscription → paste URL → Folder: create with the exact name shown → Synchronization: fullest option available → Save.
+
+| Folder name | URL |
+|---|---|
+| 01 Hinterland | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/01-hinterland.opml |
+| 02 Understanding | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/02-understanding.opml |
+| 03 State Changes | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/03-state-changes.opml |
+| 04 New Frontiers | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/04-new-frontiers.opml |
+| 05 Illuminating the Past | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/05-illuminating-the-past.opml |
+| 07 Culture (Sunday) | https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/07-culture.opml |
+
+- **Check counts:** 01×14 · 02×8 · 03×9 · 04×9 · 05×4 · 07×5. Aeon is deliberately in both 02 and 05.
+- First: delete the lump folder from the failed single-file attempt (and its OPML subscription under Preferences → OPML subscriptions).
 - Flag any feed showing an error state to Claude (expected fragile: Arts Professional, History Today).
 
 ## Step 3 — File Nature Briefing
