@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>03 State Changes — Digest System</title>
+  </head>
+  <body>
+      <outline text="Verfassungsblog" title="Verfassungsblog" type="rss" xmlUrl="https://verfassungsblog.de/feed/" htmlUrl="https://verfassungsblog.de/"/>
+      <outline text="International Crisis Group" title="International Crisis Group" type="rss" xmlUrl="https://www.crisisgroup.org/rss" htmlUrl="https://www.crisisgroup.org/"/>
+      <outline text="World news | The Guardian" title="World news | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world"/>
+      <outline text="Ukraine | The Guardian" title="Ukraine | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/ukraine/rss" htmlUrl="https://www.theguardian.com/world/ukraine"/>
+      <outline text="Middle East and North Africa | The Guardian" title="Middle East and North Africa | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/world/middleeast/rss" htmlUrl="https://www.theguardian.com/world/middleeast"/>
+      <outline text="Iran | The Guardian" title="Iran | The Guardian" type="rss" xmlUrl="http://www.guardian.co.uk/world/iran/rss" htmlUrl="http://www.theguardian.com/world/iran"/>
+      <outline text="China | The Guardian" title="China | The Guardian" type="rss" xmlUrl="https://feeds.guardian.co.uk/theguardian/world/china/rss" htmlUrl="https://www.theguardian.com/world/china"/>
+      <outline text="United States | The Guardian" title="United States | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/world/usa/rss" htmlUrl="https://www.theguardian.com/world/usa"/>
+      <outline text="World | The New York Times" title="World | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" htmlUrl="https://www.nytimes.com/section/world"/>
+  </body>
+</opml>
