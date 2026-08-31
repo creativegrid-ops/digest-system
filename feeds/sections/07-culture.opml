@@ -13,5 +13,6 @@
       <outline text="Books | The New York Times" title="Books | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Books.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="Music | The New York Times" title="Music | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Music.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="Movies | The New York Times" title="Movies | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="BBC News - Entertainment & Arts" title="BBC News - Entertainment & Arts" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml" htmlUrl="https://www.bbc.co.uk/news/entertainment_and_arts"/>
   </body>
 </opml>
