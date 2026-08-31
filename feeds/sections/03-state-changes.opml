@@ -14,5 +14,8 @@
       <outline text="United States | The Guardian" title="United States | The Guardian" type="rss" xmlUrl="https://www.guardian.co.uk/world/usa/rss" htmlUrl="https://www.theguardian.com/world/usa"/>
       <outline text="World | The New York Times" title="World | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" htmlUrl="https://www.nytimes.com/section/world"/>
       <outline text="Home Page | The New York Times" title="Home Page | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com/"/>
+      <outline text="BBC News - World" title="BBC News - World" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world"/>
+      <outline text="DW - World" title="DW - World" type="rss" xmlUrl="https://rss.dw.com/xml/rss-en-world" htmlUrl="https://www.dw.com/en/"/>
+      <outline text="Al Jazeera English" title="Al Jazeera English" type="rss" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com/"/>
   </body>
 </opml>
