@@ -24,6 +24,18 @@ Fetch feeds with modest content limits; you need headlines, dates, summaries, an
 
 **Lane two (targeted search).** For sources known to block direct fetching — the Guardian, Politico Europe, On London — and for any section left thin by lane one, use web search with this strict query rule: **named source + specific subject + date anchor** (e.g. "Guardian CMA live music August 2026"). Never generic topic queries ("London news this week" is a known failure). Lane-two items must resolve to a real, direct article URL; **if you cannot obtain a direct link, the item is dropped** — no aggregator citations, no linkless items.
 
+
+**Lane three (newsletters via Gmail).** Search Gmail for newsletters in the window (they carry the label "news"; query by sender + `newer_than:7d`). Read relevant issues with the Gmail connector; their linked articles are legitimate source material and their direct article URLs satisfy the link rule. Senders and their sections:
+- Guardian First Edition, Headlines Europe, Business View → ① Hinterland (this restores the Guardian's UK/Europe centre)
+- Bob Lefsetz → ① Hinterland (music-industry view; LA framing discount applies)
+- Guardian The Long Read, Global Dispatch, The Upside → ③ Understanding
+- Semafor Africa, Semafor China → ③ Understanding / ② State Changes (non-Anglo world slot)
+- NYT The World, Today's Headlines, Global Update → ② State Changes (filtered hard: state-changes only, never churn)
+- Guardian Lab Notes, Down to Earth, TechScape; Semafor Technology, Semafor Energy → ⑥ New Frontiers
+- Semafor Business, NYT DealBook → ⑤ Position radar / threads sweep material
+- Guardian The Guide, Bookmarks, Art Weekly, Five Great Reads; NYT The Weekender, The Good List; Garbage Day; Today in Tabs → reserved for the Sunday Culture Digest — do not use in this digest
+Newsletters are curation surfaces: extract the underlying stories and link the original articles, not the newsletter itself.
+
 ## 3. Filtering — the constitution in brief
 
 Include only what passes ALL of:
