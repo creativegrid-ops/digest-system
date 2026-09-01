@@ -14,10 +14,14 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 | Stereogum | 2 | untested | US crossover only |
 | IQ Magazine | **3** (IQ Index newsletter, Gmail `label:trade`) | untested | Site feed known-broken (redirects to shop) — never rely on it |
 | Music Week | **3** (bulletins, Gmail `label:trade`) | untested | Partial paywall on site |
-| Agency rosters: ATC Live · Primary Talent · Solo · One Fiinix Live · Runway Artists | 2 (direct page fetch, diffed vs Notion snapshot) | untested | List pending final confirmation by Ross. Blocked pages → press-based check |
+| Majors rosters (scene-relevant only): The Team (formerly Wasserman) · UTA · ATC Live · Primary Talent · Earth · Solo · Runway Artists | 2 (page fetch, diffed vs snapshot) | untested | Confirmed 2 Sep 2026. Large rosters — diff filtered to Pink Mist's world. Blocked pages → press-based check |
+| Independents (diff in full): Atonal (atonal.agency) · Just Another (just-another.co) · Northern Music Company (northernmusicgroup.co.uk) | 2 | untested | Regular collaborators |
+| Growth tier (diff in full): Odyssey Booking (odysseybooking.com) · Toutpartout (toutpartout.be) · Upsurge Artists (upsurgeartists.com) | 2 | untested | Relationship-maintenance rotation weighted here |
 | Festivals: ArcTangent · 2000trees · Portals · Outbreak | 2 | untested | Lineup announcements |
 | Viberate MCP | connector | validated 21 Aug 2026 | Free tier; ~20 lookups/run cap; `graph_mode: 'total'` only; audience top-5 cities only |
 | Airtable / Notion / Gmail | connectors | validated (chat client) | **Cowork scheduled-task environment: unconfirmed — blocking check** |
 
 ## Change log
-- 2 Sep 2026 — registry created; all web sources untested pending first on-demand runs. Trade newsletter subscriptions (IQ Index, Music Week → `label:trade`) initiated by Ross for accumulation.
+- 2 Sep 2026 — registry created; all web sources untested pending first on-demand runs. Trade newsletters confirmed by Ross: IQ Index + Bob Lefsetz long-subscribed (populated), Music Week added today — all auto-labelled `trade`.
+
+- 2 Sep 2026 — agency list confirmed, three tiers (majors scene-filtered / independents / growth); One Fiinix dropped.
