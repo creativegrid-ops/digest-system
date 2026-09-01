@@ -14,7 +14,7 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 | Stereogum | 2 | untested | US crossover only |
 | IQ Magazine | **3** (IQ Index newsletter, Gmail `label:trade`) | **lane3-ok** (7 issues in window, run 1) | Site feed known-broken (redirects to shop) — never rely on it |
 | Music Week | **3** (bulletins, Gmail `label:trade`) | pending accumulation (subscribed 2 Sep) | Partial paywall on site |
-| Majors rosters (scene-relevant only): The Team (formerly Wasserman) · UTA · ROAM (formerly ATC Live, merged w/ Arrival Sep 2025) · Primary Talent · Earth · Solo · Runway Artists | press-first + 1 roster/week rotation | partial (run 1: Primary too large to crawl in budget; Solo domain resolved to unrelated site — URL needed) | Signings via lane 3 + named lane-2 searches |
+| Majors rosters (scene-relevant only): The Team (formerly Wasserman) · UTA · ROAM (formerly ATC Live, merged w/ Arrival Sep 2025) · Primary Talent · Earth · Solo · Runway Artists | press-first + 1 roster/week rotation | partial (run 1: Primary too large to crawl in budget; Solo domain now confirmed: soloagency.com) | Signings via lane 3 + named lane-2 searches |
 | Independents (diff in full): Atonal (atonal.agency) · Just Another (just-another.co) · Northern Music Company (northernmusicgroup.co.uk) | 2 | partial (run 1: Atonal JS-rendered; Just Another DNS/robots error; Northern site = placeholder) | Warm paths exist in Airtable (e.g. haydn@northernmusic.co.uk) — relationship intel doesn't depend on their websites |
 | Growth tier (diff in full): Odyssey Booking (odysseybooking.com) · Toutpartout (toutpartout.be) · Upsurge Artists (upsurgeartists.com) | 2 | partial (run 1: Odyssey robots-blocked → press-based; others ok) | Relationship-maintenance rotation weighted here |
 | Festivals: ArcTangent · 2000trees · Portals · Outbreak | 2 | untested | Lineup announcements |
@@ -26,3 +26,4 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 
 - 2 Sep 2026 — agency list confirmed, three tiers (majors scene-filtered / independents / growth); One Fiinix dropped.
 - 2 Sep 2026 — run 1 debrief: Reddit www dead (403×6); Gmail label query quirk (sender-search fallback codified); Earth JS-rendered partial; ATC Live → ROAM (merger verified via IQ/Music Week/Billboard, Sep 2025); pitch-integrity rules added to prompt v1.3 after fabricated internal history (CASEY) caught in review.
+- 2 Sep 2026 — Solo roster URL confirmed by Ross: soloagency.com (snapshot + prompt updated).
