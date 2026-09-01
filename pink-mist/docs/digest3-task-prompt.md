@@ -1,5 +1,5 @@
 # Scheduled Task Prompt — Digest 3: Agents & Pitching Intelligence
-**v1.1 · 2 Sep 2026** · Incorporates the three-lane gathering model and design rules transferred from the World Digest build (see `music-universe-digests-design.md` §Addendum).
+**v1.2 · 2 Sep 2026** · Confirmed three-tier agency list; incorporates the three-lane gathering model and design rules transferred from the World Digest build (see `music-universe-digests-design.md` §Addendum).
 
 **Master copy of this prompt:** `creativegrid-ops/digest-system` → `pink-mist/docs/digest3-task-prompt.md`. The repo is master; the Cowork task runs whatever text was pasted into it. To deploy a change: edit in the repo, then re-paste into the task. Never have the task fetch its own instructions at runtime.
 
@@ -34,7 +34,7 @@ For each candidate AND for any Airtable Support Pool artist that surfaced organi
 Interpretation rule: global listener totals are vanity context. London share + rank are demand evidence. A band with 15k global listeners and London as their #1 city beats a band with 90k global and London 5th.
 
 ## Step 4 — Agency roster diff
-Fetch the public roster pages for the agencies listed in the Agency Roster Snapshot page. Diff against the snapshot: new artists, departures. Cross-check notable signings against trade press from the past week — lane 3 first (IQ Index / Music Week newsletters in Gmail), lane 2 search as backup (IQ's own site feed is known-broken; do not rely on it). Then update the snapshot page with today's state and date. Flag any signing where the agent also represents an artist Pink Mist has previously promoted (check Airtable in Step 5). If a roster page blocks fetching, note it in the health line and swap to a press-based check for that agency.
+Fetch the public roster pages for the agencies listed in the Agency Roster Snapshot page. Diff against the snapshot: new artists, departures. **Scene-relevance filter for the majors tier** (The Team, UTA, ATC Live, Primary Talent, Earth, Solo, Runway Artists): report only additions/departures relevant to Pink Mist's world (emo, post-hardcore, math rock, screamo, shoegaze, post-rock and adjacent, roughly ≤1,500-cap) — ignore the rest of these large rosters entirely. Independents (Atonal, Just Another, Northern Music Company) and growth-tier agencies (Odyssey Booking, Toutpartout, Upsurge Artists) are small enough to diff in full. Cross-check notable signings against trade press from the past week — lane 3 first (IQ Index / Music Week newsletters in Gmail), lane 2 search as backup (IQ's own site feed is known-broken; do not rely on it). Then update the snapshot page with today's state and date. Flag any signing where the agent also represents an artist Pink Mist has previously promoted (check Airtable in Step 5). If a roster page blocks fetching, note it in the health line and swap to a press-based check for that agency.
 
 ## Step 5 — Airtable cross-reference
 For every artist surfacing in Steps 2–4: search the Artists table (`tblnNTQP6EfBvPMkO` in base `appxltRTKB3N591nk`) — use `search_records` then verify hits by Name via `list_records_for_table` with explicit recordIds (search returns false positives). Record: in DB or new; previously booked (check linked Slots); Booking Contact if present. Do NOT create or modify any Airtable records.
@@ -46,7 +46,7 @@ Structure, hard caps enforced:
 - **① Buzz board (max 5):** one item per artist.
 - **② Signings & moves:** this week's relevant agency signings; bold any where the agent overlaps Pink Mist history.
 - **③ Three pitches (exactly 3):** each = artist + agent + the specific angle (use Airtable history: "you promoted X's show at [venue]…") + a 2–3 sentence draft opener in a direct, warm, zero-corporate scene register + the London Catchment line justifying the pitch. Mark clearly as drafts.
-- **④ Relationship maintenance (1 only):** one agent not contacted recently whose roster overlaps our world, with a light-touch reason to reach out.
+- **④ Relationship maintenance (1 only):** one agent not contacted recently whose roster overlaps our world, with a light-touch reason to reach out. Weight the rotation toward the growth tier (Odyssey Booking, Toutpartout, Upsurge Artists) — these are the relationships Ross wants to build long-term; the independents he already works with weekly need this slot less.
 - **Footer:** data caveats this run (Viberate limits hit, identity matches uncertain, coverage gaps).
 
 **Item anatomy (buzz board and signings):** bold headline stating the claim plainly (no clickbait) → one standalone paragraph (2–4 sentences) covering evidence, DB status, and the London Catchment line ("London: Y%, rank N, trend ±Z" or the ⚠️ absence form) → dated link line `→ [Source · date](URL)`. **No item without a direct working URL, no exceptions.**
@@ -62,7 +62,11 @@ These two Notion writes and the snapshot update in Step 4 are the ONLY writes yo
 
 ## First-run setup notes (do once, manually or in the first on-demand run)
 - Create Notion pages under the Pink Mist bucket: "Digest Logs" → children "Agents & Pitching Log" and "Agency Roster Snapshot".
-- Seed the snapshot page with the agreed agency list and their roster page URLs. Starting list to confirm with Ross: ATC Live, Primary Talent, Solo Agency, One Fiinix Live, Runway Artists — amend freely.
+- Seed the snapshot page with the confirmed agency list (three tiers, confirmed by Ross 2 Sep 2026):
+  - **Majors (scene-relevant artists only):** The Team (formerly Wasserman) · UTA · ATC Live · Primary Talent · Earth · Solo · Runway Artists
+  - **Independents (regular collaborators, diff in full):** Atonal (atonal.agency) · Just Another (just-another.co) · Northern Music Company (northernmusicgroup.co.uk)
+  - **Growth tier (relationships to build, diff in full):** Odyssey Booking (odysseybooking.com) · Toutpartout (toutpartout.be) · Upsurge Artists (upsurgeartists.com)
+  Locate each agency's roster page URL on the first run and record it in the snapshot.
 - **Lane testing on first run:** each source gets its lane assignment verified empirically (fetch the Reddit OPML feeds; test which press sites are reachable in the Cowork sandbox vs needing lane 2; confirm the Gmail trade label returns mail). Record results in `pink-mist/registry/source-registry.md` in the repo (manually, from this chat — the task itself never writes to the repo).
 - Run the task on-demand twice (Scheduled page → Run) and tune before enabling the Friday schedule.
 - Watch for: Viberate free-tier limit errors (log them — this is the PRO-decision evidence), identity mismatches on common band names, Reddit 429s, roster pages that block fetching.
