@@ -69,7 +69,7 @@ These two Notion writes and the snapshot update in Step 4 are the ONLY writes yo
 ## First-run setup notes (do once, manually or in the first on-demand run)
 - Create Notion pages under the Pink Mist bucket: "Digest Logs" → children "Agents & Pitching Log" and "Agency Roster Snapshot".
 - Seed the snapshot page with the confirmed agency list (three tiers, confirmed by Ross 2 Sep 2026):
-  - **Majors (scene-relevant artists only):** The Team (formerly Wasserman) · UTA · ROAM (formerly ATC Live) · Primary Talent · Earth · Solo · Runway Artists
+  - **Majors (scene-relevant artists only):** The Team (formerly Wasserman) · UTA · ROAM (formerly ATC Live) · Primary Talent · Earth · Solo (soloagency.com — confirmed by Ross; do not use solo.uk.com) · Runway Artists
   - **Independents (regular collaborators, diff in full):** Atonal (atonal.agency) · Just Another (just-another.co) · Northern Music Company (northernmusicgroup.co.uk)
   - **Growth tier (relationships to build, diff in full):** Odyssey Booking (odysseybooking.com) · Toutpartout (toutpartout.be) · Upsurge Artists (upsurgeartists.com)
   Locate each agency's roster page URL on the first run and record it in the snapshot.
