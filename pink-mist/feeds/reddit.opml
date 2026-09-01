@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Pink Mist — Reddit lane (Digest 3, Step 2 lane 1)</title>
+    <!-- Subreddit RSS feeds. Signal = recurrence across threads/weeks, never single posts.
+         Rate-limit risk known: on 429/robots block, the task falls back to lane 2 and notes it in the health line.
+         Lane assignment: PENDING first-run empirical test (2 Sep 2026). -->
+  </head>
+  <body>
+    <outline text="r/Emo" type="rss" xmlUrl="https://www.reddit.com/r/Emo/.rss" htmlUrl="https://www.reddit.com/r/Emo/"/>
+    <outline text="r/Mathrock" type="rss" xmlUrl="https://www.reddit.com/r/Mathrock/.rss" htmlUrl="https://www.reddit.com/r/Mathrock/"/>
+    <outline text="r/postrock" type="rss" xmlUrl="https://www.reddit.com/r/postrock/.rss" htmlUrl="https://www.reddit.com/r/postrock/"/>
+    <outline text="r/screamo" type="rss" xmlUrl="https://www.reddit.com/r/screamo/.rss" htmlUrl="https://www.reddit.com/r/screamo/"/>
+    <outline text="r/Hardcore" type="rss" xmlUrl="https://www.reddit.com/r/Hardcore/.rss" htmlUrl="https://www.reddit.com/r/Hardcore/"/>
+    <outline text="r/indieheads" type="rss" xmlUrl="https://www.reddit.com/r/indieheads/.rss" htmlUrl="https://www.reddit.com/r/indieheads/"/>
+  </body>
+</opml>
