@@ -1,5 +1,5 @@
 # World Digest — Cowork Scheduled Task Prompt
-*v1.0 · locked 31 Aug 2026 · Schedule: every Saturday, 07:30 London time*
+*v1.0 · locked 31 Aug 2026 · Schedule: every Saturday, 03:00 London time*
 *Paste this entire document as the task instructions. It is self-contained.*
 
 ---
