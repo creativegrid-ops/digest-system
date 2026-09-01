@@ -6,7 +6,7 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 
 | Source | Intended lane | Status | Notes |
 |---|---|---|---|
-| r/Emo, r/Mathrock, r/postrock, r/screamo, r/Hardcore, r/indieheads | 1 (RSS via `feeds/reddit.opml`) | **dead (www)** — 403 all six, run 1 (2 Sep) | Next: old.reddit.com variant, then named lane-2 queries. General web search for Reddit threads failed twice pre-build — do not regress to generic queries. |
+| r/Emo, r/Mathrock, r/postrock, r/screamo, r/Hardcore, r/indieheads | 1 (RSS via `feeds/reddit.opml`) | **dead** — 403 all six on www AND old.reddit (runs 1–2) | Cheap single-feed retry per run only; otherwise named lane-2 queries (weak yield run 2 — skewed Wikipedia/Bandcamp). Four-run no-yield → drop at review. General web search for Reddit threads failed twice pre-build — do not regress to generic queries. |
 | DIY | 2 | untested | Query rule: named source + subject + date anchor |
 | Kerrang! | 2 | untested | Commercial masthead — expect proxy block on direct fetch |
 | Distorted Sound | 2 | **lane2-ok** (run 1, both buzz items) | |
@@ -27,3 +27,4 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 - 2 Sep 2026 — agency list confirmed, three tiers (majors scene-filtered / independents / growth); One Fiinix dropped.
 - 2 Sep 2026 — run 1 debrief: Reddit www dead (403×6); Gmail label query quirk (sender-search fallback codified); Earth JS-rendered partial; ATC Live → ROAM (merger verified via IQ/Music Week/Billboard, Sep 2025); pitch-integrity rules added to prompt v1.3 after fabricated internal history (CASEY) caught in review.
 - 2 Sep 2026 — Solo roster URL confirmed by Ross: soloagency.com (snapshot + prompt updated).
+- 2 Sep 2026 — run 2 debrief: CASEY correction — claims were TRUE pre-Airtable history (Ross confirmed), not fabrication; integrity rule recalibrated to verify-or-label (prompt v1.4). old.reddit also 403 → lane 1 dead. UTA roster JS-rendered/empty (press-first applies). Duplicate-window addendum behaviour codified. Schedule live: first scheduled issue Fri 4 Sep.
