@@ -21,6 +21,28 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 | Viberate MCP | connector | validated 21 Aug 2026 | Free tier; ~20 lookups/run cap; `graph_mode: 'total'` only; audience top-5 cities only |
 | Airtable / Notion / Gmail | connectors | validated (chat client) | **Cowork scheduled-task environment: unconfirmed — blocking check** |
 
+## Scene newsletters (lane 3, label:scene — subscribed free tier 3 Sep 2026)
+
+| Newsletter | Author | Status | Notes |
+|---|---|---|---|
+| IDIOTEQ (idioteq.substack.com) | Karol Kaminski | subscribed, accumulating | Best genre fit: screamo/skramz, post-hardcore, blackgaze, math rock, post-rock at demo/first-EP stage. Weekly + monthly round-ups |
+| Liner Notes (chorus.substack.com) | Jason Tate | subscribed, accumulating | Weekly emo/pop-punk/alt scene curation. Supporter tier $3/mo if it earns it |
+| Bandcamp Notes (bandcamp.substack.com) | Bandcamp Daily | subscribed, accumulating | Broad discovery, 1–2×/week |
+| Washed Up Emo (washedupemo.substack.com) | Tom Mullen | subscribed, accumulating | Authoritative but archival lean — watch yield |
+| Unhappy Place (andrewsacher.substack.com) | Andrew Sacher (ex-BrooklynVegan) | subscribed, accumulating | Emo/post-hardcore; Emo Revival book Sep 2026 |
+| Everything Is Noise | — | **parked** | Perfect genre fit but email signup disabled ("in maintenance") — recheck quarterly, promote if it reopens |
+
+## Industry/signings stack (lane 3, label:trade + page-watches — from newsletter research 3 Sep 2026)
+
+| Source | Status | Notes |
+|---|---|---|
+| ROSTR Signings Tracker (hq.rostr.cc) | Ross signing up | Free account + Insider email alerts → trade label. Caveat: 75–80% agency self-reporting — high recall, not gospel. First-login check: search recent Atonal/Runway signings to test sub-500-cap coverage |
+| CelebrityAccess VitalSigns | recommended, not yet subscribed | Weekly "Agency Signings" email, free |
+| CMU Daily | recommended, not yet subscribed | Free weekday UK deals round-up ("One Liners") |
+| Record of the Day | trial candidate | Paid after 2-week trial; carried ATC/ROAM releases verbatim |
+| primarytalent.com/new-signings/ + runwayartists.com/new-signings/ | page-watch (prompt v1.5, Step 4) | Dated structured pages — replaces roster diffs for these two |
+| Boutique EU agency IG/FB (Toutpartout, Swamp, Atonal, Odyssey) | staged → Digest 1 Make lane | Signings announced ONLY on social, parseable boilerplate ("NEW ROSTER ADDITION!", "welcome to the roster") — add agency handles to business-discovery watch list |
+
 ## Change log
 - 2 Sep 2026 — registry created; all web sources untested pending first on-demand runs. Trade newsletters confirmed by Ross: IQ Index + Bob Lefsetz long-subscribed (populated), Music Week added today — all auto-labelled `trade`.
 
@@ -30,3 +52,4 @@ Lane assignments are **verified empirically on first runs**, never assumed (Worl
 - 2 Sep 2026 — run 2 debrief: CASEY correction — claims were TRUE pre-Airtable history (Ross confirmed), not fabrication; integrity rule recalibrated to verify-or-label (prompt v1.4). old.reddit also 403 → lane 1 dead. UTA roster JS-rendered/empty (press-first applies). Duplicate-window addendum behaviour codified. Schedule live: first scheduled issue Fri 4 Sep.
 - 2 Sep 2026 — Reddit lane fix staged (in Digest 1 build task): official Reddit API via Make → Airtable staging; Digest 3 lane 1 to read staging once live. redditapis.com evaluated and rejected (unofficial, rule #2). browser-use.com parked as Phase-2 candidate for JS-rendered roster pages — revisit at 4-week review.
 - 3 Sep 2026 — prompt v1.5: Digest Library archive write added (shared cross-stream Notion archive `collection://e54a3f19-b99a-4fe0-8b28-b771bd5bf98c`); permitted writes now four. Digest 1/2 build tasks updated to include Library write from birth.
+- 3 Sep 2026 — newsletter research adopted: 5 scene Substacks subscribed (label:scene), industry stack defined (ROSTR pending sign-in), page-watches added, prompt v1.5 (two-label lane 3, per-newsletter yield line). Corrections: Odyssey = Antwerp not UK; Upsurge disambiguation required.
