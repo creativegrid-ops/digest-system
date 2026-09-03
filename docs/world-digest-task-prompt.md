@@ -1,5 +1,5 @@
 # World Digest — Cowork Scheduled Task Prompt
-*v1.0 · locked 31 Aug 2026 · Schedule: every Saturday, 03:00 London time*
+*v1.2 · locked 2 Sep 2026 · Schedule: every Saturday, 03:00 London time*
 *Paste this entire document as the task instructions. It is self-contained.*
 
 ---
@@ -83,6 +83,11 @@ Before composing, read the "World Digest Log" page in Notion (create it under a 
 
 Read/stage only — never post, reply, email, or contact anyone. Cite everything. Degrade gracefully — failed sources acknowledged, never padded around silently. No paywall circumvention; paywalled detail is "unavailable," never inferred. Hard caps are the priority mechanism. If the whole pipeline fails, deliver a short honest note saying so rather than a fabricated digest.
 
-## 8. Output
+## 8. Output — two destinations
 
-Deliver the finished digest as this task's result — a single readable document in the format above, nothing before or after it except (if needed) a one-line note on pipeline health.
+1. Deliver the finished digest as this task's result — a single readable document in the format above, nothing before or after it except (if needed) a one-line note on pipeline health.
+2. **Publish to the Digest Library in Notion.** Create one page in the "📚 Digest Library" database (data source ID: collection://e54a3f19-b99a-4fe0-8b28-b771bd5bf98c) with:
+   - Name: `World Digest — Issue №N — [date]`
+   - Digest: `World` · Stream: `Reflection` · Date: today (date only) · Issue: N
+   - Page content: the complete digest, converted cleanly to Notion formatting (headings for sections, working links preserved).
+This page is the permanent archive copy. The Library write is in addition to the log append in §6; these remain the only permitted Notion writes.
