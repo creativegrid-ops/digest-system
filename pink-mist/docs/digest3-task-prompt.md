@@ -1,5 +1,5 @@
 # Scheduled Task Prompt — Digest 3: Agents & Pitching Intelligence
-**v1.5 · 3 Sep 2026** · Adds Digest Library archive write (shared cross-stream Notion archive, per World Digest project addendum). Carries v1.4: verify-or-label integrity rule, duplicate-window addendum behaviour, Reddit lane 1 dead.
+**v1.6 · 3 Sep 2026** · Consolidated: Digest Library archive write (Step 7.3, per World Digest addendum — committed by the sibling project) + scene newsletter lane, signings page-watches, and per-newsletter yield tracking (this project). Carries v1.4: verify-or-label integrity rule, duplicate-window addendum behaviour, Reddit lane 1 dead.
 
 **Master copy of this prompt:** `creativegrid-ops/digest-system` → `pink-mist/docs/digest3-task-prompt.md`. The repo is master; the Cowork task runs whatever text was pasted into it. To deploy a change: edit in the repo, then re-paste into the task. Never have the task fetch its own instructions at runtime.
 
