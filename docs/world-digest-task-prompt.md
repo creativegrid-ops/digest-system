@@ -12,7 +12,7 @@ The digest window is the seven days ending today (Saturday). Compute the dates e
 
 ## 2. Gathering — two lanes
 
-**Lane one (direct feeds).** Fetch these six OPML files, then fetch the feeds inside each (skip folder 07 — it belongs to the Sunday Culture Digest; skip 06 — handled in step 4):
+**Lane one (direct feeds).** Fetch these five OPML files, then fetch the feeds inside each (folders 06 and 07 are deliberately excluded — 07 belongs to the Sunday Culture Digest; threads are handled in §4):
 
 - https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/01-hinterland.opml
 - https://raw.githubusercontent.com/creativegrid-ops/digest-system/main/feeds/sections/02-understanding.opml
