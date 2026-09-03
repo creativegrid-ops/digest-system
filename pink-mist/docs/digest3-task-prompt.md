@@ -1,5 +1,5 @@
 # Scheduled Task Prompt — Digest 3: Agents & Pitching Intelligence
-**v1.4 · 2 Sep 2026** · Post-run-2 amendments: pitch integrity rule 1 recalibrated to verify-or-label (Airtable is authoritative for what it covers, incomplete for pre-Airtable history — CASEY claims were true but unverifiable); duplicate-window addendum behaviour codified; Reddit lane 1 marked dead.
+**v1.5 · 3 Sep 2026** · Adds Digest Library archive write (shared cross-stream Notion archive, per World Digest project addendum). Carries v1.4: verify-or-label integrity rule, duplicate-window addendum behaviour, Reddit lane 1 dead.
 
 **Master copy of this prompt:** `creativegrid-ops/digest-system` → `pink-mist/docs/digest3-task-prompt.md`. The repo is master; the Cowork task runs whatever text was pasted into it. To deploy a change: edit in the repo, then re-paste into the task. Never have the task fetch its own instructions at runtime.
 
@@ -64,7 +64,8 @@ Structure, hard caps enforced:
 ## Step 7 — Deliver
 1. Create one page in the My Task List data source (`data_source_id: 49dc4b91-b041-4c69-b5ce-6e1c67acc058`) with properties: Task = `🎯 Agents & Pitching Digest — Fri [date]`; date:Date:start = today; Bucket = relation to `https://app.notion.com/88a4e220bb7b44139a1a5e5dffde6a0c` (Pink Mist); Project = relation to `https://app.notion.com/12e3b058a599803b91cbe331cae360ca` (Pink Mist - Day to Day); State = `Flow` (pitching is deliberate work); Urgency = `Not Urgent`; Importance = `⚠️ Important`. Digest goes in the page body.
 2. Append a dated entry to "Agents & Pitching Log": one line per buzz-board artist and per pitch recommended (name + London share/rank + action recommended), so future runs don't repeat.
-These two Notion writes and the snapshot update in Step 4 are the ONLY writes you are permitted. No emails, no posts, no Airtable writes, no other pages, no repo writes.
+3. **Digest Library archive copy:** create one page in the Digest Library data source (`collection://e54a3f19-b99a-4fe0-8b28-b771bd5bf98c`) with: Name = `Pink Mist — Agents & Pitching — [date]`; Digest (select) = exactly `Pink Mist — Agents & Pitching`; Stream (select) = `Work`; Date = run date (date only); Issue = the running issue number. Page content = the complete digest, cleanly converted to Notion formatting, all links preserved as working URLs. This is an archive copy — it never replaces the task-page delivery. Do not create new select options. If the Library write fails, note it in the health line and deliver the digest anyway.
+These three Notion writes and the snapshot update in Step 4 are the ONLY writes you are permitted. No emails, no posts, no Airtable writes, no other pages, no repo writes.
 
 ---
 
