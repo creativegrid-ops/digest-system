@@ -69,7 +69,11 @@ Structure, in order, with hard caps:
 7. **⑤ Position radar** (≤2) — movement only on: freelancer fairness/pay; AI's impact on creative labour; access & diversity in creative-industry leadership
 8. **⑥ New Frontiers** (≤3)
 9. **⑦ Illuminating the Past** (≤2)
-10. **🧵 Thread ledger** — one entry per thread, in this shape: bold name · question in italics · verdict (**Moved** / **No movement** / **Not swept**) · on Moved: what moved this week, with item anatomy and links · one situating sentence drawn from the brief's "Where we are" · link to the brief. Quiet threads stay to one line plus the brief link.
+10. **🧵 Thread ledger** — one entry per thread, each opening with an identical standardised header block for navigability:
+    - `### [emoji-free thread name]` as a distinct sub-heading (e.g. `### T5 · Climate: State & Trend`)
+    - the governing question in italics on its own line
+    - `**Verdict: Moved / No movement / Not swept** · [Full brief](notion-url)` on one line
+    Then, on **Moved** only: the week's developments in full item anatomy (T4 entries tagged [erosion]/[creation]/[transformation]; T5 entries carrying a one-line **Trend read** and confidence level), followed by one situating sentence in italics drawn from the brief's "Where we are". Quiet threads are complete after the header block plus the situating sentence — nothing padded.
 11. **🕯 This month's witness** — maintain a 2-candidate menu with one-line rationales and the single best long-form reading for each; deliberate gravity, never the week's loudest; pick monthly, carry the menu between picks
 12. Footer: sources unreachable this run (honest, brief) · "Feedback: read / regretted / missed?"
 
