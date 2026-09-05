@@ -17,5 +17,6 @@
       <outline text="Technology | The New York Times" title="Technology | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="Health | The New York Times" title="Health | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Health.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="BBC News - Science & Environment" title="BBC News - Science & Environment" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" htmlUrl="https://www.bbc.co.uk/news/science_and_environment"/>
+      <outline text="Carbon Brief" title="Carbon Brief" type="rss" xmlUrl="https://www.carbonbrief.org/feed/" htmlUrl="https://www.carbonbrief.org/"/>
   </body>
 </opml>
