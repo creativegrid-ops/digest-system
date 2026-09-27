@@ -16,6 +16,5 @@
       <outline text="Movies | The New York Times" title="Movies | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="The Quietus" title="The Quietus" type="rss" xmlUrl="https://thequietus.com/feed/" htmlUrl="https://thequietus.com/"/>
       <outline text="Londonist" title="Londonist" type="rss" xmlUrl="https://londonist.com/feed" htmlUrl="https://londonist.com/"/>
-      <outline text="Poetry Foundation - Poem of the Day" title="Poetry Foundation - Poem of the Day" type="rss" xmlUrl="https://www.poetryfoundation.org/feeds/poem-of-the-day" htmlUrl="https://www.poetryfoundation.org/"/>
   </body>
 </opml>
