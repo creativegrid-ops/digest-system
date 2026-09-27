@@ -16,5 +16,7 @@
       <outline text="Movies | The New York Times" title="Movies | The New York Times" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml" htmlUrl="https://www.nytimes.com/"/>
       <outline text="The Quietus" title="The Quietus" type="rss" xmlUrl="https://thequietus.com/feed/" htmlUrl="https://thequietus.com/"/>
       <outline text="Londonist" title="Londonist" type="rss" xmlUrl="https://londonist.com/feed" htmlUrl="https://londonist.com/"/>
+      <outline text="The Obelisk" title="The Obelisk" type="rss" xmlUrl="https://theobelisk.net/obelisk/feed/" htmlUrl="https://theobelisk.net/"/>
+      <outline text="Heavy Blog Is Heavy" title="Heavy Blog Is Heavy" type="rss" xmlUrl="https://www.heavyblogisheavy.com/feed/" htmlUrl="https://www.heavyblogisheavy.com/"/>
   </body>
 </opml>
